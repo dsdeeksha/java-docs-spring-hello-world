@@ -9,14 +9,14 @@ on:
      # - main
   workflow_dispatch:
     inputs:
-       id:
+      # id:
        choice:
         type: choice
-        description: Make a choice
+        description: Id
         options:
         - deploy-to-webapp
         - deploy-to-user
-        - Demo
+
 jobs:
   build:
     runs-on: ubuntu-latest
