@@ -9,13 +9,13 @@ on:
      # - main
   workflow_dispatch:
     inputs:
-      # id:
-       choice:
-        type: choice
-        description: Id
-        options:
-        - deploy-to-webapp
-        - deploy-to-user
+       id:
+       #choice:
+        #type: choice
+        #description: Id
+        #options:
+        #- deploy-to-webapp
+        #- deploy-to-user
 
 jobs:
   build:
